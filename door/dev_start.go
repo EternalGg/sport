@@ -20,3 +20,7 @@ func Develop() {
 func first(c *gin.Context) {
 	fmt.Println("lmao")
 }
+
+func init() {
+	fmt.Println("lmao")
+}
